@@ -10,7 +10,7 @@ int main(){
 	for(i=1;i<=totalFrames;i++){
 		scanf("%d", &frames[i]);
 	}
-	printf("\nSlidind window protocol simulation(Assuming no frame loss/corruption)\n");
+	printf("\nSliding window protocol simulation(Assuming no frame loss/corruption)\n");
 	printf("Sender send %d frames at a time and waits for acknowledgement.\n\n", windowSize);
 	for(i=1;i<=totalFrames;i++){
 		printf("%d", frames[i]);
